@@ -9,7 +9,7 @@ Update plum, rime-ice or someok.
 
 Available options:
 
--p, --param     plum, ice, someok
+-p, --param     plum, ice, custom
 -v, --verbose   Output detailed information
 -h, --help      Print this help and exit
 
@@ -54,7 +54,7 @@ parse_params() {
 
     # check required params and arguments
     [[ -z "${param-}" ]] && msg "${RED}Missing required parameter: -p or --param${NOFORMAT}" && exit
-    [[ "${param}" != "plum" && "${param}" != "ice" && "${param}" != "someok" ]] && msg "${RED}param MUST be plum, ice or someok${NOFORMAT}" && exit
+    [[ "${param}" != "plum" && "${param}" != "ice" && "${param}" != "custom" ]] && msg "${RED}param MUST be plum, ice or custom${NOFORMAT}" && exit
 
     return 0
 }
@@ -77,7 +77,7 @@ if [ -d $PLUM_DIR ]; then
     elif [ "${param}" == "ice" ]; then
         msg "${YELLOW}Update rime-ice${NOFORMAT}"
         bash rime-install iDvel/rime-ice:others/recipes/full
-    elif [ "${param}" == "someok" ]; then
+    elif [ "${param}" == "custom" ]; then
         msg "${YELLOW}Update rime-ice someok custom config${NOFORMAT}"
         bash rime-install someok/rime-ice-custom
     fi
