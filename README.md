@@ -23,3 +23,19 @@ bash rime-install iDvel/rime-ice:others/recipes/full
 ```bash
 bash rime-install someok/rime-ice-custom
 ```
+
+## 命令行
+```bash
+# 升级 plum
+./update.sh -p plum
+
+# 升级 rime-ice
+./update.sh -p ice
+
+# 升级自身
+./update.sh -p someok
+```
+
+### 前置条件
+
+`plum` 与 `rime-ice-custom` 位于同一级目录下。
