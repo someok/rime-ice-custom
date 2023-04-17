@@ -1,0 +1,46 @@
+patch:
+  menu/page_size: 7  # 候选词个数
+
+  # 方案选单相关
+  switcher/hotkeys:
+      # - Alt+grave
+      - Control+Shift+grave # 由于 ctrl+` 和 F4 与 IDEA 有冲突,所以只保留 ctrl+shift+` 作为快捷键
+
+  key_binder/bindings/+:
+      # 翻页 , .
+      - { when: paging, accept: comma, send: Page_Up }
+      - { when: has_menu, accept: period, send: Page_Down }
+
+  punctuator/half_shape:
+    ',' : '，'
+    '.' : '。'
+    '<' : '<'
+    '>' : '>'
+    '/' : '/'
+    '?' : '？'
+    ';' : '；'
+    ':' : '：'
+    '''' : { pair: [ '‘', '’' ] }
+    '"' : { pair: [ '“', '”' ] }
+    '\' : '、'
+    '|' : '|'
+    '`' : '`'
+    '~' : '~'
+    '!' : '！'
+    '@' : '@'
+    '#' : '#'
+    '%' : '%'
+    '$' : '¥'
+    '^' : '……'
+    '&' : '&'
+    '*' : '*'
+    '(' : '（'
+    ')' : '）'
+    '-' : '-'
+    '_' : ——
+    '+' : '+'
+    '=' : '='
+    '[' : '['
+    ']' : ']'
+    '{' : [ 「, 『, 《, 〖, 【, ｛ ]
+    '}' : [ 」, 』, 》, 〗, 】, ｝ ]
