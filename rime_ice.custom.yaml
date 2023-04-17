@@ -2,6 +2,8 @@ patch:
   # custom_phrase 使用绝对路径，以防止一些敏感内容提交到 git
   custom_phrase/user_dict: /Users/wjx/MyCloud/AppSettings/Rime-custom/custom_phrase_custom
 
+  translator/dictionary: rime_ice_someok          # 挂载词库 rime_ice_someok.dict.yaml
+
   # 要降低的单词，匹配的是输入码，即全小写。
   reduce_english_filter/words: [rug, bus, ship, laos, bail, bam, bans, bib, bos, chic, chit, dab, dag,
   dal, dit, dub, dug, fab, gam, ger, gus, hem, hep, hud, kat, lam, lax, lex, lug,
