@@ -10,3 +10,4 @@ install_files: >-
   squirrel.custom.yaml
   symbols_v.custom.yaml
   rime_ice.custom.yaml
+  rime_ice_someok.dict.yaml
