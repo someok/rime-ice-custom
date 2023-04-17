@@ -11,3 +11,4 @@ install_files: >-
   symbols_v.custom.yaml
   rime_ice.custom.yaml
   rime_ice_someok.dict.yaml
+  cn_dicts_custom/my_contacts.dict.yaml
