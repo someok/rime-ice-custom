@@ -1,0 +1,12 @@
+# encoding: utf-8
+---
+recipe:
+  # Rx: others/recipes/someok
+  args:
+  description: >-
+    rime-ice someok 自定义扩展配置
+install_files: >-
+  default.custom.yaml
+  squirrel.custom.yaml
+  symbols_v.custom.yaml
+  rime_ice.custom.yaml

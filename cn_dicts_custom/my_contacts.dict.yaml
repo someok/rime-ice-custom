@@ -1,0 +1,443 @@
+# Rime dictionary
+# encoding: utf-8
+# 我的通讯录人员列表
+---
+name: luna_pinyin.my_contacts
+version: "20201.09.19"
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+俞翔	yu xiang	1
+周恒煜	zhou heng yu	1
+姜钟一	jiang zhong yi	1
+林建栋	lin jian dong	1
+丁亚敏	ding ya min	1
+丁召海	ding zhao hai	1
+丁怀宇	ding huai yu	1
+丁晓中	ding xiao zhong	1
+丁艳	ding yan	1
+三爷	san ye	1
+严峻猛	yan jun meng	1
+严强	yan qiang	1
+严正国	yan zheng guo	1
+中波	zhong bo	1
+尹玉宝	yin yu bao	1
+乐育青	le yu qing	1
+二姨	er yi	1
+二爷	er ye	1
+于凤龙	yu feng long	1
+于始光	yu shi guang	1
+令狐虫	ling hu chong	1
+仲一羽	zhong yi yu	1
+任毅	ren yi	1
+余义建	yu yi jian	1
+余兆平	yu zhao ping	1
+余浩	yu hao	1
+俞文蔚	yu wen wei	1
+俞黎敏	yu li min	1
+偶玉彬	ou yu bin	1
+傅卫东	fu wei dong	1
+傅强	fu qiang	1
+储东亮	chu dong liang	1
+储佳佳	chu jia jia	1
+党莹	dang ying	1
+冀德豪	ji de hao	1
+冯伟	feng wei	1
+冯艳	feng yan	1
+刘亮	liu liang	1
+刘伟	liu wei	1
+刘凌驰	liu ling chi	1
+刘启彬	liu qi bin	1
+刘壮豪	liu zhuang hao	1
+刘威	liu wei	1
+刘宁	liu ning	1
+刘寅	liu yin	1
+刘希强	liu xi qiang	1
+刘平来	liu ping lai	1
+刘志刚	liu zhi gang	1
+刘成	liu cheng	1
+刘昕	liu xin	1
+刘晓东	liu xiao dong	1
+刘晓妍	liu xiao yan	1
+刘梦吟	liu meng yin	1
+刘洪军	liu hong jun	1
+刘瑾	liu jin	1
+刘璐	liu lu	1
+刘赣	liu gan	1
+刘辉	liu hui	1
+别巧粉	bie qiao fen	1
+华徐强	hua xu qiang	1
+华晔	hua ye	1
+单丹	dan dan	1
+单晓寅	dan xiao yin	1
+卜小建	bo xiao jian	1
+卢志华	lu zhi hua	1
+古道勋	gu dao xun	1
+叶斌	ye bin	1
+叶永彪	ye yong biao	1
+吕小京	lü xiao jing	1
+吕承龙	lü cheng long	1
+吕晓鹏	lü xiao peng	1
+吕澜	lü lan	1
+吴卫军	wu wei jun	1
+吴宝焱	wu bao yan	1
+吴文倩	wu wen qian	1
+吴晓晴	wu xiao qing	1
+吴桂平	wu gui ping	1
+周培鑫	zhou pei xin	1
+周斌	zhou bin	1
+周燕	zhou yan	1
+周爱民	zhou ai min	1
+周霈	zhou pei	1
+唐厚斌	tang hou bin	1
+四娘	si niang	1
+四爷	si ye	1
+夏微	xia wei	1
+夏铁梅	xia tie mei	1
+天桥	tian qiao	1
+姚春妹	yao chun mei	1
+姚爱民	yao ai min	1
+姚迪	yao di	1
+姜冬	jiang dong	1
+姜毅	jiang yi	1
+姜波	jiang bo	1
+姜维	jiang wei	1
+孔繁博	kong fan bo	1
+孙三军	sun san jun	1
+孙威	sun wei	1
+孙延林	sun yan lin	1
+孙志刚	sun zhi gang	1
+孙敬艳	sun jing yan	1
+孙瑞	sun rui	1
+孙科	sun ke	1
+孙艳	sun yan	1
+孙艳	sun yan	1
+孙艳玲	sun yan ling	1
+孙达扬	sun da yang	1
+季烨	ji ye	1
+宋昱	song yu	1
+小凡	xiao fan	1
+小姨	xiao yi	1
+小爷	xiao ye	1
+小草	xiao cao	1
+岑老师	cen lao shi	1
+崔伟庆	cui wei qing	1
+崔传新	cui chuan xin	1
+左亚	zuo ya	1
+左养泽	zuo yang ze	1
+左广方	zuo guang fang	1
+常春	chang chun	1
+平安保险	ping an bao xian	1
+张丰颖	zhang feng ying	1
+张为刚	zhang wei gang	1
+张二阳	zhang er yang	1
+张云婷	zhang yun ting	1
+张亮	zhang liang	1
+张元	zhang yuan	1
+张务庆	zhang wu qing	1
+张向东	zhang xiang dong	1
+张奕	zhang yi	1
+张宏宇	zhang hong yu	1
+张忠华	zhang zhong hua	1
+张明	zhang ming	1
+张朝飞	zhang chao fei	1
+张标	zhang biao	1
+张毅	zhang yi	1
+张波	zhang bo	1
+张燕萍	zhang yan ping	1
+张礼	zhang li	1
+张良	zhang liang	1
+张艳华	zhang yan hua	1
+张荣华	zhang rong hua	1
+张运华	zhang yun hua	1
+张长青	zhang zhang qing	1
+彭意宝	peng yi bao	1
+彭晓华	peng xiao hua	1
+彭朝勇	peng chao yong	1
+彭海荣	peng hai rong	1
+徐一峰	xu yi feng	1
+徐春	xu chun	1
+徐晓莉	xu xiao li	1
+徐猛	xu meng	1
+徐裕忠	xu yu zhong	1
+微雨心情	wei yu xin qing	1
+快乐老家	kuai le lao jia	1
+忻正清	xin zheng qing	1
+成少楠	cheng shao nan	1
+戴俊	dai jun	1
+戴军成	dai jun cheng	1
+戴炳荣	dai bing rong	1
+招商银行	zhao shang yin hang	1
+携程	xie cheng	1
+文楠	wen nan	1
+文涛	wen tao	1
+方燕	fang yan	1
+时超	shi chao	1
+晁运常	chao yun chang	1
+景晨	jing chen	1
+曲鹏	qu peng	1
+曹宇	cao yu	1
+曹晓刚	cao xiao gang	1
+曹树青	cao shu qing	1
+曹玮	cao wei	1
+曾志成	ceng zhi cheng	1
+朱佳伟	zhu jia wei	1
+朱先琳	zhu xian lin	1
+朱守利	zhu shou li	1
+朱平	zhu ping	1
+朱星勃	zhu xing bo	1
+朱浩泉	zhu hao quan	1
+朱玉	zhu yu	1
+朱金仙	zhu jin xian	1
+李东辉	li dong hui	1
+李丽	li li	1
+李云元	li yun yuan	1
+李元锦	li yuan jin	1
+李向群	li xiang qun	1
+李天臻	li tian zhen	1
+李媛	li yuan	1
+李建英	li jian ying	1
+李开强	li kai qiang	1
+李惠红	li hui hong	1
+李晖	li hui	1
+李沛	li pei	1
+李清	li qing	1
+李熠	li yi	1
+李红	li hong	1
+李翔	li xiang	1
+李艳冰	li yan bing	1
+李芳	li fang	1
+李葆	li bao	1
+李诚至	li cheng zhi	1
+李贵明	li gui ming	1
+李超众	li chao zhong	1
+李阚峰	li kan feng	1
+李雪辉	li xue hui	1
+李静若	li jing ruo	1
+杜鹏	du peng	1
+杨付献	yang fu xian	1
+杨宇	yang yu	1
+杨慧菊	yang hui ju	1
+杨梅影	yang mei ying	1
+杨玉金	yang yu jin	1
+杨芳	yang fang	1
+杨鑫	yang xin	1
+柏能	bai neng	1
+柳森宇	liu sen yu	1
+柳菁亭	liu jing ting	1
+梁中玉	liang zhong yu	1
+梁作龙	liang zuo long	1
+梅恒斌	mei heng bin	1
+欧俊	ou jun	1
+武向辉	wu xiang hui	1
+毕千千	bi qian qian	1
+毛三哥	mao san ge	1
+永乐物业	yong le wu ye	1
+江澜	jiang lan	1
+沈文	shen wen	1
+沈斯红	shen si hong	1
+泡菜	pao cai	1
+满怿	man yi	1
+潘海峰	pan hai feng	1
+熊天鹏	xiong tian peng	1
+爷爷	ye ye	1
+猛禽	meng qin	1
+王东武	wang dong wu	1
+王乙英	wang yi ying	1
+王云鸽	wang yun ge	1
+王亮	wang liang	1
+王佰兴	wang bai xing	1
+王倩	wang qian	1
+王克森	wang ke sen	1
+王全妹	wang quan mei	1
+王冰	wang bing	1
+王大永	wang da yong	1
+王妍	wang yan	1
+王宇	wang yu	1
+王宏伟	wang hong wei	1
+王小玲	wang xiao ling	1
+王平	wang ping	1
+王建华	wang jian hua	1
+王建南	wang jian nan	1
+王建旭	wang jian xu	1
+王志强	wang zhi qiang	1
+王志雄	wang zhi xiong	1
+王慧迪	wang hui di	1
+王敬波	wang jing bo	1
+王文心	wang wen xin	1
+王春雷	wang chun lei	1
+王晶晶	wang jing jing	1
+王曼曼	wang man man	1
+王杰华	wang jie hua	1
+王梦溪	wang meng xi	1
+王永强	wang yong qiang	1
+王江	wang jiang	1
+王波	wang bo	1
+王海丽	wang hai li	1
+王海波	wang hai bo	1
+王渊华	wang yuan hua	1
+王玺婷	wang xi ting	1
+王琦	wang qi	1
+王瑛	wang ying	1
+王积男	wang ji nan	1
+王程志	wang cheng zhi	1
+王翔	wang xiang	1
+王舒毅	wang shu yi	1
+王英杰	wang ying jie	1
+王道远	wang dao yuan	1
+王铭孜	wang ming zi	1
+王雷鸣	wang lei ming	1
+王韦	wang wei	1
+王飞鸽	wang fei ge	1
+田利学	tian li xue	1
+申武杰	shen wu jie	1
+盖如栋	gai ru dong	1
+石春艳	shi chun yan	1
+福克斯买家	fu ke si mai jia	1
+程曙豪	cheng shu hao	1
+窦露	dou lu	1
+罗庆新	luo qing xin	1
+罗飞	luo fei	1
+翁葆璋	weng bao zhang	1
+耿成龙	geng cheng long	1
+耿立新	geng li xin	1
+聂红雷	nie hong lei	1
+联通	lian tong	1
+肖劲峰	xiao jin feng	1
+胡剑	hu jian	1
+胡国权	hu guo quan	1
+胡大志	hu da zhi	1
+胡晓杰	hu xiao jie	1
+胡蓉	hu rong	1
+胡行华	hu hang hua	1
+胡金祥	hu jin xiang	1
+胡长义	hu zhang yi	1
+苏彭城	su peng cheng	1
+苏竑芳	su hong fang	1
+苗友	miao you	1
+茅天虹	mao tian hong	1
+葛金鹏	ge jin peng	1
+葛静燕	ge jing yan	1
+葛馨	ge xin	1
+董森	dong sen	1
+董进	dong jin	1
+蒋一新	jiang yi xin	1
+蒋文伟	jiang wen wei	1
+蒋燕	jiang yan	1
+蒲帅业	pu shuai ye	1
+蔡云鹏	cai yun peng	1
+蔡欢	cai huan	1
+蔡磊	cai lei	1
+薛桢一	xue zhen yi	1
+虹霞物业	hong xia wu ye	1
+袁进	yuan jin	1
+裔文君	yi wen jun	1
+覃柳	qin liu	1
+许传宝	xu chuan bao	1
+许宝俊	xu bao jun	1
+许柯	xu ke	1
+谢新贵	xie xin gui	1
+谢晶	xie jing	1
+谭金府	tan jin fu	1
+贺世锋	he shi feng	1
+贺磊	he lei	1
+贺诞宁	he dan ning	1
+赵云林	zhao yun lin	1
+赵德润	zhao de run	1
+赵林	zhao lin	1
+赵永健	zhao yong jian	1
+赵琴	zhao qin	1
+赵绪伟	zhao xu wei	1
+辜臻毅	gu zhen yi	1
+连怿	lian yi	1
+逄明春	pang ming chun	1
+邓吉生	deng ji sheng	1
+邱月	qiu yue	1
+邵肖明	shao xiao ming	1
+邵谨	shao jin	1
+邹剑星	zou jian xing	1
+邹恒龙	zou heng long	1
+郁也风	yu ye feng	1
+郑亦文	zheng yi wen	1
+郑优生	zheng you sheng	1
+郑国强	zheng guo qiang	1
+郑大华	zheng da hua	1
+郑妍	zheng yan	1
+郑孝赤	zheng xiao chi	1
+郑少辉	zheng shao hui	1
+郑文杰	zheng wen jie	1
+郑立	zheng li	1
+郑立	zheng li	1
+郑辉	zheng hui	1
+郑锦	zheng jin	1
+郜文彬	gao wen bin	1
+郝英旭	hao ying xu	1
+郭俊华	guo jun hua	1
+郭嗣宗	guo si zong	1
+郭彦龙	guo yan long	1
+郭红宁	guo hong ning	1
+郭衍敏	guo yan min	1
+金圣雨	jin sheng yu	1
+金耀	jin yao	1
+钟新华	zhong xin hua	1
+钱俊	qian jun	1
+钱大纲	qian da gang	1
+锁珩	suo heng	1
+阎其冶	yan qi ye	1
+阙韧杰	que ren jie	1
+阮臻	ruan zhen	1
+阿古	a gu		1
+阿飞	a fei	1
+陆启超	lu qi chao	1
+陆屏	lu ping	1
+陆杰	lu jie	1
+陆静	lu jing	1
+陈亿翰	chen yi han	1
+陈先茹	chen xian ru	1
+陈华	chen hua		1
+陈少伟	chen shao wei	1
+陈岱楠	chen dai nan	1
+陈师傅	chen shi fu	1
+陈新	chen xin		1
+陈新杰	chen xin jie	1
+陈旭	chen xu	1
+陈柏宏	chen bai hong	1
+陈梦雪	chen meng xue	1
+陈海江	chen hai jiang	1
+陈涛	chen tao		1
+陈琴	chen qin		1
+陈秋悦	chen qiu yue	1
+陈绣	chen xiu	1
+陈翊佶	chen yi ji	1
+陈雷	chen lei	1
+陶敏杰	tao min jie	1
+陶虎	tao hu	1
+雷春波	lei chun bo	1
+青珂	qing ke	1
+韩俊宝	han jun bao	1
+韩园	han yuan	1
+韩昭	han zhao	1
+韩梅	han mei	1
+韩翼	han yi	1
+韩艺超	han yi chao	1
+顾霈	gu pei	1
+颜廷婷	yan ting ting	1
+马佳韵	ma jia yun	1
+马飞	ma fei	1
+高晓跃	gao xiao yue	1
+高沣	gao feng	1
+高雷阜	gao lei fu	1
+魏佳	wei jia	1
+魏春永	wei chun yong	1
+鲍毅	bao yi	1
+麦子	mai zi	1
+黄之怡	huang zhi yi	1
+黄晨	huang chen	1
+黄灿灿	huang can can	1
+黄烨	huang ye	1
+黄耀斌	huang yao bin	1
+黄金启	huang jin qi	1
+黄雷	huang lei	1
+黄震	huang zhen	1
+黄颖明	huang ying ming	1

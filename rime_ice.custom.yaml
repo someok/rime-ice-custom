@@ -1,0 +1,10 @@
+patch:
+  # custom_phrase 使用绝对路径，以防止一些敏感内容提交到 git
+  custom_phrase/user_dict: /Users/wjx/MyCloud/AppSettings/Rime-custom/custom_phrase_custom
+
+  # 要降低的单词，匹配的是输入码，即全小写。
+  reduce_english_filter/words: [rug, bus, ship, laos, bail, bam, bans, bib, bos, chic, chit, dab, dag,
+  dal, dit, dub, dug, fab, gam, ger, gus, hem, hep, hud, kat, lam, lax, lex, lug,
+  lux, moc, mos, mot, mum, nad, nay, nib, nip, pak, pap, pax, rig, rum, sac, sal,
+  sax, sec, shin, sis, ska, slang, sus, tad, taj, tac, tic, yep, yum, fax, cain,
+  key, mob, buy, dam, went]
