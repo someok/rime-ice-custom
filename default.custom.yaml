@@ -6,6 +6,10 @@ patch:
       # - Alt+grave
       - Control+Shift+grave # 由于 ctrl+` 和 F4 与 IDEA 有冲突,所以只保留 ctrl+shift+` 作为快捷键
 
+  # Lua 配置: 以词定字（上屏当前词句的第一个或最后一个字）
+  key_binder/select_first_character: bracketleft # [
+  key_binder/select_last_character: bracketright # [
+
   key_binder/bindings/+:
       # 翻页 , .
       - { when: paging, accept: comma, send: Page_Up }
