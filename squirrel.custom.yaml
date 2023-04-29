@@ -1,17 +1,19 @@
 patch:
-  style/color_scheme: macos_light
-  style/color_scheme_dark: macos_dark
+  style/color_scheme: win10_light
+  style/color_scheme_dark: win10_dark
 
   style/inline_preedit: true
   style/display_tray_icon: true
   style/color_space: display_p3
   style/corner_radius: 0
-  style/candidate_list_layout: linear
+  style/candidate_list_layout: linear # stacked 纵向； linear 横向
   style/text_orientation: horizontal
 
   style/font_point: 16
   style/label_font_point: 13
   style/comment_font_point: 13
+  style/translucency: true # 磨砂效果
+  style/alpha: 1 # 透明效果
 
   preset_color_schemes/+:
     macos_light:
@@ -25,7 +27,7 @@ patch:
       hilited_text_color: 0x999999 # 高亮拼音 (需要开启内嵌编码)
       candidate_text_color: 0x3c3c3c # 预选项文字颜色
       comment_text_color: 0x999999 # 拼音等提示文字颜色
-      label_color: 0x999999 # 预选栏编号颜色
+      label_color: 0x666666 # 预选栏编号颜色
       corner_radius: 5 # 候选条圆角
       hilited_corner_radius: 5 # 高亮圆角
       border_height: 4 # 窗口上下高度
@@ -62,7 +64,7 @@ patch:
       hilited_text_color: 0x999999 # 高亮拼音 (需要开启内嵌编码)
       candidate_text_color: 0x3c3c3c # 预选项文字颜色
       comment_text_color: 0x999999 # 拼音等提示文字颜色
-      label_color: 0x999999 # 预选栏编号颜色
+      label_color: 0x666666 # 预选栏编号颜色
 
     win10_dark:
       corner_radius: 6
@@ -76,4 +78,4 @@ patch:
       hilited_text_color: 0x999999 # 高亮拼音 (需要开启内嵌编码)
       candidate_text_color: 0xe9e9ea # 预选项文字颜色
       comment_text_color: 0x999999 # 拼音等提示文字颜色
-      label_color: 0x999999 # 预选栏编号颜色
+      label_color: 0xaaaaaa # 预选栏编号颜色
