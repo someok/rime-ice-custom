@@ -1,5 +1,12 @@
 # rime-ice-custom
 
+基于「雾凇拼音」 [rime-ice](https://dvel.me/posts/rime-ice/)的一些自定义配置。
+
+基本上通过 rime 的 patch 模式实现，从而最大限度地服用雾凇的配置。
+
+安装则是通过 `Plum` 实现，`Plum` 在执行 `rime-install` 之后会自动把 `recipe` 配置项拷贝到 Rime 配置目录。
+所以 `Plum` 可以放置在任何地方。
+
 ## 安装「东风破」 [Plum](https://github.com/rime/plum/tree/master)
 
 > 建议安装在用户目录下
