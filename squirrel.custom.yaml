@@ -16,10 +16,6 @@ patch:
     style/mutual_exclusive: false
     style/memorize_size: true
     style/alpha: 9e-1
-    style/corner_radius: 7e+0
-    style/hilited_corner_radius: 0e+0
-    style/border_height: -2e+0
-    style/border_width: -2e+0
     style/line_spacing: 5e+0
     style/spacing: 8e+0
 
@@ -102,10 +98,9 @@ patch:
             hilited_candidate_label_color: '0xFFFFFF'
             comment_text_color: '0x6D6D6D'
             hilited_comment_text_color: '0xEBC6B0'
-            candidate_list_layout: linear
-            corner_radius: 8e+0
+            corner_radius: 9e+0
             hilited_corner_radius: 8e+0
-            border_height: -4e+0
+            border_height: -5e+0
             border_width: 0e+0
 
         custom_mojave_dark:
@@ -122,8 +117,7 @@ patch:
             hilited_candidate_label_color: '0xFFFFFF'
             comment_text_color: '0x6D6D6D'
             hilited_comment_text_color: '0xEBC6B0'
-            candidate_list_layout: linear
-            corner_radius: 8e+0
+            corner_radius: 9e+0
             hilited_corner_radius: 8e+0
-            border_height: -2e+0
+            border_height: -3e+0
             border_width: 0e+0
