@@ -1,16 +1,27 @@
 patch:
-    style/color_scheme: win10_light
-    style/color_scheme_dark: win10_dark
+    style/color_scheme: custom_mojave_light
+    style/color_scheme_dark: custom_mojave_dark
 
-    # style/corner_radius: 0
     style/candidate_list_layout: linear # stacked 纵向； linear 横向
     style/text_orientation: horizontal
 
-    style/font_point: 16
+    style/status_message_type: mix
+    style/candidate_format: '[label]. [candidate] [comment]'
+
+    style/font_point: 15
+    style/font_face: Avenir-Book
     style/label_font_point: 13
     style/comment_font_point: 13
-    style/translucency: true # 磨砂效果
-    style/alpha: 1 # 透明效果
+    style/translucency: true
+    style/mutual_exclusive: false
+    style/memorize_size: true
+    style/alpha: 9e-1
+    style/corner_radius: 7e+0
+    style/hilited_corner_radius: 0e+0
+    style/border_height: -2e+0
+    style/border_width: -2e+0
+    style/line_spacing: 5e+0
+    style/spacing: 8e+0
 
     preset_color_schemes/+:
         macos_light:
@@ -76,3 +87,43 @@ patch:
             candidate_text_color: 0xe9e9ea # 预选项文字颜色
             comment_text_color: 0x999999 # 拼音等提示文字颜色
             label_color: 0xaaaaaa # 预选栏编号颜色
+
+        custom_mojave_light:
+            name: Custom Mojave Light
+            color_space: srgb
+            back_color: '0xFFFFFF'
+            hilited_back_color: '0xFFFFFF'
+            hilited_candidate_back_color: '0xCE7539'
+            text_color: '0x666666'
+            hilited_text_color: '0x000000'
+            candidate_text_color: '0x000000'
+            hilited_candidate_text_color: '0xFFFFFF'
+            label_color: '0x888785'
+            hilited_candidate_label_color: '0xFFFFFF'
+            comment_text_color: '0x6D6D6D'
+            hilited_comment_text_color: '0xEBC6B0'
+            candidate_list_layout: linear
+            corner_radius: 8e+0
+            hilited_corner_radius: 8e+0
+            border_height: -4e+0
+            border_width: 0e+0
+
+        custom_mojave_dark:
+            name: Custom Mojave Dark
+            color_space: srgb
+            back_color: '0x252320'
+            hilited_back_color: '0x252320'
+            hilited_candidate_back_color: '0xCB5D00'
+            text_color: '0xDEDDDD'
+            hilited_text_color: '0xDEDDDD'
+            candidate_text_color: '0xDEDDDD'
+            hilited_candidate_text_color: '0xFFFFFF'
+            label_color: '0x888785'
+            hilited_candidate_label_color: '0xFFFFFF'
+            comment_text_color: '0x6D6D6D'
+            hilited_comment_text_color: '0xEBC6B0'
+            candidate_list_layout: linear
+            corner_radius: 8e+0
+            hilited_corner_radius: 8e+0
+            border_height: -2e+0
+            border_width: 0e+0
