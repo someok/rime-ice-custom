@@ -2,6 +2,8 @@
 
 ## 安装「东风破」 [Plum](https://github.com/rime/plum/tree/master)
 
+> 建议安装在用户目录下
+
 ```bash
 git clone --depth 1 git@github.com:rime/plum.git
 cd plum
@@ -10,6 +12,7 @@ cd plum
 ### 升级 Plum 自身
 
 ```bash
+cd plum
 bash rime-install plum
 ```
 
@@ -18,24 +21,21 @@ bash rime-install plum
 ```bash
 bash rime-install iDvel/rime-ice:others/recipes/full
 ```
+
 ## 安装/升级 someok 自定义配置
 
 ```bash
 bash rime-install someok/rime-ice-custom
 ```
 
-## 命令行
+### 软链接自定义词库
+
+一些敏感的字库放置在本机，可以通过如下命令创建一个关联的软链接
+
 ```bash
-# 升级 plum
-./update.sh -p plum
-
-# 升级 rime-ice
-./update.sh -p ice
-
-# 升级自身
-./update.sh -p someok
+ln -s "~/dict/path/cn_dicts_custom" "~/plum/package/someok/ice-custom/cn_dicts_custom"
 ```
 
-### 前置条件
+## 补充说明
 
-`plum` 与 `rime-ice-custom` 位于同一级目录下。
+- `update.sh` 文件已废弃
