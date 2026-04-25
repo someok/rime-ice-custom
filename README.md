@@ -30,10 +30,10 @@ bash rime-install someok/rime-ice-custom
 
 ### 软链接自定义词库
 
-一些敏感的字库放置在本机，可以通过如下命令创建一个关联的软链接
+一些敏感的字库放置在本机，可以通过如下命令创建一个目录的软链接将其链接到 Rime 下
 
 ```bash
-ln -s "~/dict/path/cn_dicts_custom" "~/plum/package/someok/ice-custom/cn_dicts_custom"
+ln -s "~/dict/path/cn_dicts_custom" "$HOME/Library/Rime/cn_dicts_custom"
 ```
 
 ## 补充说明
