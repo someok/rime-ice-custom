@@ -7,7 +7,7 @@ recipe:
         rime-ice someok 自定义扩展配置
 install_files: >-
     default.custom.yaml
-    # squirrel.custom.yaml
+    squirrel.custom.yaml
     symbols_v.custom.yaml
     rime_ice.custom.yaml
     rime_ice_someok.dict.yaml
