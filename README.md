@@ -1,48 +1,52 @@
 # rime-ice-custom
 
-基于「雾凇拼音」 [rime-ice](https://dvel.me/posts/rime-ice/)的一些自定义配置。
+基于「雾凇拼音」[rime-ice](https://dvel.me/posts/rime-ice/) 的自定义配置。
 
-基本上通过 rime 的 patch 模式实现，从而最大限度地服用雾凇的配置。
+通过 Rime 的 patch 模式实现，最大限度复用雾凇的配置。安装通过 [Plum](https://github.com/rime/plum/tree/master)（东风破）实现，执行 `rime-install` 后会自动将 `recipe` 配置项拷贝到 Rime 配置目录，因此 Plum 可放置在任意位置。
 
-安装则是通过 `Plum` 实现，`Plum` 在执行 `rime-install` 之后会自动把 `recipe` 配置项拷贝到 Rime 配置目录。
-所以 `Plum` 可以放置在任何地方。
+## 安装步骤
 
-## 安装「东风破」 [Plum](https://github.com/rime/plum/tree/master)
+### 1. 安装东风破 Plum
 
 > 建议安装在用户目录下
 
 ```bash
 git clone --depth 1 git@github.com:rime/plum.git
-cd plum
 ```
 
-### 升级 Plum 自身
+### 2. 安装/升级雾凇拼音
 
 ```bash
 cd plum
-bash rime-install plum
-```
-
-## 安装/升级「雾凇拼音」 [rime-ice](https://dvel.me/posts/rime-ice/)
-
-```bash
 bash rime-install iDvel/rime-ice:others/recipes/full
 ```
 
-## 安装/升级 someok 自定义配置
+### 3. 安装/升级自定义配置
 
 ```bash
 bash rime-install someok/rime-ice-custom
 ```
 
-### 软链接自定义词库
+### 4. 软链接自定义词库（可选）
 
-一些敏感的字库放置在本机，可以通过如下命令创建一个目录的软链接将其链接到 Rime 下
+本配置使用了两个私有词库：
+
+| 词库 | 说明 | 配置位置 |
+|------|------|----------|
+| `cn_dicts_custom/my_contacts` | 个人联系人词库 | [rime_ice_someok.dict.yaml](./rime_ice_someok.dict.yaml) |
+| `cn_dicts_custom/custom_phrase_custom` | 常用词库（txt 格式） | [rime_ice.custom.yaml](./rime_ice.custom.yaml) |
+
+> **注**：`rime_ice_someok.dict.yaml` 复制自雾凇的 [rime_ice.dict.yaml](https://github.com/iDvel/rime-ice/blob/main/rime_ice.dict.yaml)，因 dict 文件无法通过 patch 添加 `import_tables`，故需复制后修改。
+
+将词库文件放置在同一目录下（如 `~/dicts/cn_dicts_custom`），然后创建软链接：
 
 ```bash
-ln -s "~/dict/path/cn_dicts_custom" "$HOME/Library/Rime/cn_dicts_custom"
+ln -s "~/dicts/cn_dicts_custom" "$HOME/Library/Rime/cn_dicts_custom"
 ```
 
-## 补充说明
+> 注意：这些文件修改之后别忘记执行「重新部署」
 
+## 其他
+
+- 升级 Plum 自身：`cd plum && bash rime-install plum`
 - `update.sh` 文件已废弃
